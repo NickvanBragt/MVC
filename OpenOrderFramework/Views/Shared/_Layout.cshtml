@@ -26,7 +26,7 @@
                                 @if (Request.IsAuthenticated && User.IsInRole("Admin"))
                                 {
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin Area <b class="caret"></b></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin & Chill <b class="caret"></b></a>
                                         <ul class="dropdown-menu">
                                             <li>@Html.ActionLink("Orders", "Index", "Orders")</li>
                                             <li>@Html.ActionLink("Catagorie", "Index", "Catagories")</li>
@@ -61,7 +61,7 @@
                     @RenderBody()
                     <hr />
                     <footer>
-                        <p>&copy; @DateTime.Now.Year - Order Framework by Louie Bacaj</p>
+                        <p>&copy; @DateTime.Now.Year - Nick van Bragt</p>
                     </footer>
                 </div>
 
