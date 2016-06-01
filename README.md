@@ -15,16 +15,6 @@ To login as an admin try the following
 (Please change that password if your going to do anything other than use this for fun.)
 
 
-A lightweight ASP.NET MVC 5 cart/order framework. It can be customized to handel any type of online shopping. Users can place an order and that order is sent via e-mail to the store's owners
-
-Find out more at http://louiebacaj.com/a-lightweight-shopping-cart-web-application-in-asp-net-mvc-5/#
-
-Most local shops don’t have the fancy infrastructure of say Amazon, but they still want to setup a simple online order system. They want an email with an order that they ship or deliver and they want to actually just charge the order in their own store and don’t want some fancy credit card integration (although I will add that option at some point and is easy enough to add). This web application provides the features needed to place an order online and emails it out with the very basic information about that order. 
-
-
-Although it was originally designed for local restaurants to receive orders from their website and receive an email with the order it has many other uses and in actuality any type of store can be setup to work with this. 
-
-
 Key Features:
 
     1)	Designed as an easy way to setup an ASP.NET MVC 5 website/store that can easily take orders. 
@@ -54,11 +44,3 @@ Key Features:
     13)	Emailing system leverages Mailgun.com but other cloud email services should work fine.
     
     14)	Paging of items on the UI and many other UI libraries such as jQuery used to add UI.
-
-
-
-This framework is intended to be backbone of any of local shop’s websites. Although one could easily integrate this with stripe or any other provider currently it just emails everything. It is setup to work well with mailgun but any other emailing system can be used as well and configured via the web.config.
-
-
-This is loosley based off of the Microsoft sample:
-http://www.asp.net/mvc/tutorials/mvc-music-store - the ASP.NET MVC 3 music store. Unlike that sample though this app is alot more realistic and more generic. It adds a place where the order will go to (email) and authentication and authorization and many other things that make this application more suitable as a real world app.
